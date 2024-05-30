@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    position: flex;
+    bottom: 70px;
+    left: 100px;
+    width: 300px;
+    border: 1px solid #888;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #fff;
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
